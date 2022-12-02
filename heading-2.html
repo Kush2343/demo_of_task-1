@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <title>Document</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+        #main{
+            width: fit-content;
+            border-radius: 15px;
+            padding: 10px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+        }
+        body{
+            font-weight: lighter;
+        }
+        .demo{
+            display: flex;
+            width: 400px;
+            justify-content: center;
+            width: fit-content;
+        }
+        .demo1{
+            display: flex;
+            width: fit-content;
+            margin-top: -5px;
+            margin-left: 68px;
+        }
+        #demo1{
+            display: flex;
+            width:fit-content;
+            width: fit-content;
+            margin-top: -5px;
+        }
+        .demo3{
+            margin-top: 20px;
+            width: fit-content;
+            display: flex;
+            margin-left: 15px;
+        }
+        .box1,.box2{
+            margin-left: 10px;
+            margin-right: 20px;
+            border:none;
+            border-radius: 10px;
+            background-color: #DCDCDC;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+        .box3,.box4{
+            margin-left: 10px;
+            margin-right: 5px;
+            border:none;
+            border-radius: 10px;
+        }
+        .box5{
+            background-color: #DCDCDC;
+            border-radius:10px;
+            width: 340px;
+            margin-left: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            margin-top: 20px;
+        }
+        p{
+           margin: -1px;
+           padding: 2.5px;
+        }
+        .inp{
+            height:40px ;
+            border-radius: 10px;
+            border: none;
+            width: 145px;
+            padding: 5px;
+        }
+        .inp1{
+            height: 50px;
+            width: 335px;
+            border-radius: 10px;
+            border: none;
+        }
+        select{
+            border-radius: 5px;
+            margin-top: 20px;
+            height: 30px;
+            font-size: 1.5vh;
+            border: none;
+            box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+            width: fit-content;
+        }
+        .icon{
+            margin-top: 20px;
+           font-size: 2vh;
+           width: fit-content;
+        }
+        .icon2{
+            margin-left: 325px;
+            font-size: 3vh;
+            margin-top: 20px;
+        }
+        .sel{
+            margin-left: 90px;
+            margin-top: -20px;
+        }
+        #b1{
+            background-color:#2340ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.7vh;
+            margin-left: 10px;
+            margin-top: 20px;
+            height: 35px;
+            padding: 10px;
+            text-align: center;
+            width: 110px;
+        }
+        #b2{
+            background-color:#2340ff;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.7vh;
+            margin-left: 10px;
+            margin-top: 20px;
+            height: 35px;
+            margin-left: 240px;
+            padding: 10px;
+            text-align: center;
+            width: 110px;
+        }
+        .fa-pen{
+            color: blue;
+        }
+        h3{
+            margin-left: 25px;
+            background-color:lightgoldenrodyellow;
+            height: 30px;
+            width: 335px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+    <h3>Thread A</h3>
+    <div class="demo">
+        <div class="box1">
+            <p class="fname">Sub Thread 1</p>
+            <input type="text" placeholder="Enter Text" class="inp">
+            </div>
+        <div class="box2">
+            <p class="fname">Sub interpretation</p>
+            <input type="text" placeholder="Enter Text" class="inp">
+        </div>
+        </div>
+        <div class="demo1">
+            <div class="icon">
+                <i class='fas fa-lightbulb'></i>
+                <i class='fas fa-comment-alt'></i>
+            </div>
+            <div id="demo1">
+            <div class="box3">
+            <select>
+                <option value="select category" selected>select category&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                <option value="select category">select category</option>
+                <option value="select category">select category</option>
+                <option value="select category">select category</option>
+            </select>
+            </div>
+            <div class="box4">
+                <select>
+                    <option value="select category" selected>select process&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="select category">select process</option>
+                    <option value="select category">select process</option>
+                    <option value="select category">select process</option>
+                </select>
+                </div>
+                </div>
+        </div>
+        <div class="button1">
+            <input type="button" value="+ sub thread" id="b1">
+        </div>
+        <div>
+            <div class="box5">
+                <p class="summary">Summary for Thread A</p>
+                <input type="text" placeholder="enter text" class="inp1">
+                </div>
+        </div>
+        <div class="demo3">
+            <div class="icon1">
+            <i class='fa fa-link'></i>&nbsp;Thread Credit&nbsp;<i class='fas fa-pen'></i>
+            </div>
+            <div class="sel">
+                <select>
+                    <option value="select Emotion" selected>select Emotion&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+                    <option value="select Emotion">select Emotion</option>
+                    <option value="select Emotion">select Emotion</option>
+                    <option value="select Emotion">select Emotion</option>
+                </select>
+                </div>
+                </div>
+                <div class="button2">
+                    <input type="button" value="+ New thread" id="b2">
+                </div>
+                <div class="icon2">
+                    <i class='fa fa-save'></i>
+                </div>
+        </div>
+</body>
+
+</html>
